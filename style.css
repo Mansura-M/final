@@ -1,0 +1,144 @@
+/* General styling for all pages */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #a8edea, #fed6e3);
+    /* Calming gradient */
+    color: #333;
+}
+
+.container {
+    margin: auto;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input,
+button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Dashboard Specific */
+.welcome {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+
+/* body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        } */
+
+.dashboard-container {
+    margin: 20px auto;
+    max-width: 1200px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    color: #4f4e4e;
+}
+
+#chartContainer {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.option-card {
+    background-color: rgb(47, 95, 197);
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.option-card:hover {
+    transform: scale(1.05);
+}
+
+.option-card i {
+    font-size: 3em;
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.option-card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.mood-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.mood-input input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.mood-input button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.mood-input button:hover {
+    background: #1e7e34;
+}
